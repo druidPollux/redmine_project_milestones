@@ -3,9 +3,9 @@ require 'redmine'
 Redmine::Plugin.register :redmine_project_milestones do
   name 'Project milestones'
   author 'Roman Shipiev'
-  description 'The plugin allows create project milestones (special issues). Project milestones autoclose when all milestone-issues were closed'
+  description 'Creating project milestones (special issues). Project milestones autoclose when all milestone-issues were closed'
   version '0.0.1'
-  url 'https://github.com/rubynovich/redmine_project_milestones'
+  url 'https://bitbucket.org/rubynovich/redmine_project_milestones'
   author_url 'http://roman.shipiev.me'
 
   project_module :project_milestones do
